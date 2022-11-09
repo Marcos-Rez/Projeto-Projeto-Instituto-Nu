@@ -1,0 +1,61 @@
+.header-01{
+    letter-spacing: 3px;
+}
+
+body{
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;/*espaçamento entre linhas relativa ao tamanho da fonte definida no elemento pai body 2.2 * 15px = 33px coresponde ao tamanho da tela do dispositivo*/
+    margin: 0;
+}
+
+h1{
+    font-size: 63px;
+    color: #ffffff;
+}
+.h2-left{
+    margin-top: 6%;
+    margin-right: 55%;
+    text-align: center;
+    color: rgb(255, 0, 200);
+}
+.a-left {
+    margin-left: 15%;
+    background-color: #000000;
+    
+}
+.h3-marTop{
+   margin-top: 3%;
+    
+}
+
+.corFonte{
+    color: rgb(255, 0, 200);
+}
+.corFonte2{
+    color: rgb(255, 0, 200);
+}
+.corFundo1{
+    color: #ffffff;
+    text-shadow: #000000 1px 1px;
+
+}
+.corFundo2{
+    color: #ffffff;
+    text-shadow: #000000ad 1px 1px;
+}
+.corFundo3{
+    color: #FF00FF;
+    text-shadow: #000000 1px 1px;
+}
+.corFundo4{
+    color: #ea00ff;
+    text-shadow: #000000ad 1px 1px;
+}
+.quemSomos{
+    text-align: justify;
+}
+.colaboradores img{
+    border-radius: 50%;
+}
