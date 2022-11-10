@@ -88,9 +88,20 @@ h1{
     text-shadow: #000000ad 1px 1px;
     font-family: 'Caveat', cursive;
 }
+.testoH2{
+    font-family: 'Caveat', cursive;
+    font-size: 55px;
+}
 .quemSomos{
     text-align: justify;
     
+}
+#quemSomos{
+    font-size: 30px;
+    margin-top: -5px;
+}
+.meusProdutos{
+    border-radius: 10px;
 }
 .colaboradores img{
     border-radius: 50%;
@@ -102,4 +113,8 @@ h1{
     list-style: none;
     text-decoration:none; 
     
+}
+
+figure img {
+    border-radius: 5px;
 }
