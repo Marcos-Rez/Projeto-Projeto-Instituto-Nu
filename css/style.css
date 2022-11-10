@@ -21,8 +21,8 @@ h1{
     color: rgb(255, 0, 200);
 }
 .a-left {
-    margin-left: 15%;
-    background-color: #000000;
+    margin-left: 23%;
+    border-radius: 7px;
     
 }
 .h3-marTop{
@@ -31,31 +31,75 @@ h1{
 }
 
 .corFonte{
-    color: rgb(255, 0, 200);
+    color: #ffffff ;
+    text-shadow: #ff1493 1px 1px 5px;
+    font-size: 45px;
+    font-family: 'Caveat', cursive;
+
 }
 .corFonte2{
-    color: rgb(255, 0, 200);
+    color: #ffffff ;
+    text-shadow: #ff1493 1px 1px 5px;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+.corFonte3{
+    color: #ffffff;
+    text-shadow: #ff1493 1px 1px;
+  
+}
+.corFonte5{
+    color: #ffffff;
+    text-shadow: #ff1493 1px 1px;
+   
+}
+.corFonte6{
+    color: #ffffff;
+    text-shadow: #ff1493 1px 1px;
+  
+}
+.corFonte4{
+    color: #ffffff;
+    text-shadow: #ff1493 1px 1px;
+    font-family: Lato, Helvetica, sans-serif;
+
+   
 }
 .corFundo1{
-    color: #ffffff;
-    text-shadow: #000000 1px 1px;
+    color: #ff69b4 ;
+    text-shadow: #000000 1px 3px 1px;
+    font-size: 55px;
+    font-family: 'Caveat', cursive;
+    font-weight: 600px;
 
 }
 .corFundo2{
-    color: #ffffff;
-    text-shadow: #000000ad 1px 1px;
+    color: #ff69b4 ;
+    text-shadow: #000000 1px 3px 1px;
+    font-size: 45px;
+    font-family: 'Caveat', cursive;
 }
 .corFundo3{
     color: #FF00FF;
-    text-shadow: #000000 1px 1px;
+    text-shadow: #000000 1px 2px 1px;
 }
 .corFundo4{
     color: #ea00ff;
     text-shadow: #000000ad 1px 1px;
+    font-family: 'Caveat', cursive;
 }
 .quemSomos{
     text-align: justify;
+    
 }
 .colaboradores img{
     border-radius: 50%;
+}
+.contato{
+    margin-top: 9px;
+}
+.endereco{
+    list-style: none;
+    text-decoration:none; 
+    
 }
