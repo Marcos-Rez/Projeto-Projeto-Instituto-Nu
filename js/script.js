@@ -1,55 +1,83 @@
-console.log("Carregado em um arquivo esterno")
-//var roupa = document.querySelector("#r1");
-//var preco =  document.querySelector("#v1");
-/*
-function botaoX () {
-    botaoAdcionarCarrinho.addEventListener("click", function(event){
-        numItens += 1;
-        total = numItens * precoItem_1;
-        console.log("num itens: "+numItens);
-        console.log("total: "+total);
-        console.log(preco2.textContent);
-    })
-}
-*/
 
-//Criar uma função que cria <li></li> dentro da <ul></ul>
+
+function criarElementos(roupa, preco) {
+
+    var ul = document.createElement("ul");
+
+    var li = document.createElement("li");
+
+    var div1 = document.createElement("div");
+    var h61 = document.createElement("h6");
+    var small1 = document.createElement("small");
+    var span1 = document.createElement("span");
+
+    h61.textContent = roupa;
+    span1.textContent = preco;
+
+    li.appendChild(div1);
+    li.appendChild(h61);
+    li.appendChild(small1);
+    li.appendChild(span1);
+    
+    var meuCarrinho = document.querySelector(".carrinho");
+    meuCarrinho.appendChild(li);
+  
+
+}
+
+
 
 
 var numItens = 0;
-var total = 1;
+var total = 0;
 
-function calculoDeValores(preco, total){
-    
-    numItens += 1;
-    total = numItens * preco;
-
-    console.log("num itens: "+numItens);
-    console.log("total: "+total);
-}
-//---------------------------------------
-
+var roupa = document.querySelector(".r1")
 var preco = document.querySelector(".v1");
 var preco = parseFloat(preco.textContent);
 
+//-------------------------------------------------
+
+function calculoDeValores(preco) {
+
+    numItens += 1;
+    total += preco;
+    console.log("num itens: " + numItens);
+    console.log("total: " + total);
+
+
+
+}
+
+//---------------------------------------
+
+
 var botaoAdcionarCarrinho = document.querySelector(".btm-1")
-botaoAdcionarCarrinho.addEventListener("click", function(event){
+botaoAdcionarCarrinho.addEventListener("click", function (event) {
+
+    var roupa = document.querySelector(".r1")
+    var preco = document.querySelector(".v1");
+
+    var preco = parseFloat(preco.textContent);
+    var roupa = roupa.textContent;
+
+    console.log("-> "+roupa);
+    console.log("-> "+preco);
 
     calculoDeValores(preco);
-    //function CriarLI();
-   
+    criarElementos(roupa, preco);
+
 })
 
 
-var preco2 =  document.querySelector(".v2");
+var preco2 = document.querySelector(".v2");
 var preco2 = parseFloat(preco2.textContent);
-console.log(preco2);
 
 var botaoAdcionarCarrinho = document.querySelector(".btm-2")
-botaoAdcionarCarrinho.addEventListener("click", function(event){
+botaoAdcionarCarrinho.addEventListener("click", function (event) {
 
-    calculoDeValores(preco2, total);
-   
+    calculoDeValores(preco2);
+
+
 })
 
 
