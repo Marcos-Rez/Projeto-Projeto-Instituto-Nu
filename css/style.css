@@ -118,3 +118,15 @@ h1{
 figure img {
     border-radius: 5px;
 }
+
+.placeHover a:hover{
+    color: aqua;
+    font-size: 25px;
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 0;
+    
+}
+.card{
+    background-color: #ff69b4;
+}
